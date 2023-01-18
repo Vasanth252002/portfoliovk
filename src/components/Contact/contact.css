@@ -1,0 +1,99 @@
+.after_submit_parent{
+  background-color: black;
+  margin-top:2vh;
+  padding-top: 5vh;
+  color:white;
+  padding-bottom:5vh;
+}
+
+.circles{
+  width:50%;
+  display:flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:5vh;
+}
+
+.submit_header{
+  font-size: 2em;
+  text-align: center;
+    background: -webkit-linear-gradient(#eee, #333);
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom:3px;
+}
+
+.submit_hr{
+  width:80%;
+  border-width: 2px;;
+}
+
+.form-container{
+  background-color: black;
+  margin-top:2vh;
+  padding-top:1vh;
+  padding-bottom:5vh;
+  color:white;
+  
+}
+
+.form-parent{
+  color: white;
+  margin-top: 2vh;
+  max-width:80vh;
+  margin-left:auto;
+  margin-right:auto;
+  line-height: 4vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top:3vh;
+  padding-bottom:4vh;
+border-radius: 3px;
+background: rgba(230, 216, 216, 0.22);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(19.5px);
+-webkit-backdrop-filter: blur(19.5px);
+border: 1px solid rgba(0, 0, 0, 1);
+
+}
+
+.contact_hr{
+  margin-top:1vh;
+  margin-bottom:1vh;
+  width:40%;
+  border-width: 2px;
+  border-radius: 3px;
+}
+
+.common_class{
+  display:block;
+  width:98%;
+}
+
+.contact_header{
+  font-size:2rem;
+  text-align: center;
+  background: -webkit-linear-gradient(#eee, #333);
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.submitButton{
+  width:40vw;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2vh;
+  height:6vh;
+  background-color:black;
+  color:white;
+  font-size:1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid rgb(228, 19, 217)
+}
+
+
+
+
+
+

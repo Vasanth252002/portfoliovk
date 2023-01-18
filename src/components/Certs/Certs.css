@@ -1,0 +1,51 @@
+.certs {
+    overflow: hidden;
+  }
+.certs__container {
+    display: flex;
+}
+.certs__slide {
+    flex-basis: 0 0 100%;
+    margin-left:3vh;
+    margin-right:3vh;
+}
+
+.certs-divider{
+  width:3vh;
+  color:white;
+  width:80%;
+  margin-bottom:5vh;
+}
+.certs-header{
+  width:100%;
+  text-align: center;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.certs_slider_images{
+  display:block;
+  height:30vh;
+  width:60vh;
+  animation: imgcolorchanger 3s infinite;
+}
+
+
+.certs_parent{
+  background-color: black;
+  padding-bottom:5vh;
+}
+
+
+
+@media screen and (max-width:414px){
+  .certs_slider_images{
+    display:block;
+    height:60vw;
+    width:80vw;
+    
+  }
+
+
+}
+

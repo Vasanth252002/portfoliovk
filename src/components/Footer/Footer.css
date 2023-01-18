@@ -1,0 +1,35 @@
+.footer-body{
+    background-color:black;
+    padding-top: 2vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top:2vh;
+}
+
+.footer-list{
+    color:white;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-list:hover{
+    color:blueviolet
+}
+
+.footer-headers{
+    color:blueviolet;
+}
+
+.common-class-footer{
+    color:white;
+}
+
+.icon-footer{
+    font-size: 10vh;
+}
+
+.fooyer-navbar-logo{
+    text-align: center;
+}

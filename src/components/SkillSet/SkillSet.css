@@ -1,0 +1,94 @@
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex-basis: 0 0 30%;
+    margin-left:3vh;
+    margin-right:3vh;
+  }
+
+.skill-divider{
+  width:3vh;
+  color:white;
+  width:80%;
+  margin-bottom:5vh;
+}
+.skills-header{
+  width:100%;
+  text-align: center;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.slider_images{
+  display:block;
+  height:30vh;
+  width:60vh;
+  animation: imgcolorchange 3s infinite;
+}
+
+@keyframes imgcolorchange{
+  0%{
+    border: 0.5vh solid white;
+  }
+  25%{
+    border: 0.5vh solid rgb(89, 0, 255);
+  }
+  50%{
+    border: 0.5vh solid rgb(152, 6, 236);
+  }
+  75%{
+    border: 0.5vh solid rgb(8, 110, 243);
+  }
+  100%{
+    border: 0.5vh solid rgb(243, 6, 25);
+  }
+}
+.skill_parent{
+  background-color: black;
+  padding-bottom:5vh;
+}
+
+.text_on_slider{
+  
+  display:block;
+  height:30%;
+  width:60%;
+  position:absolute;
+  top:0%;
+  
+  
+  
+}
+.slider_text{
+  position:absolute;
+  top:40%;
+  width:60vh;
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(230, 5, 230), rgb(84, 3, 235));
+  background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size: 5vh;
+ font-weight: 600;
+  
+  
+}
+
+@media screen and (max-width:414px){
+  .slider_images{
+    display:block;
+    height:60vw;
+    width:80vw;
+    animation: imgcolorchange 3s infinite;
+  }
+
+  .slider_text{
+    font-size: 5vw;
+    width:98%;
+    
+  }
+}
+

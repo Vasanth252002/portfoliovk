@@ -1,0 +1,54 @@
+.banner-parent{
+    background-color: black;
+    background-image: url('/public/images/patternpad.jpeg');
+    background-size:fill;
+    background-position:center;
+}
+.banner-innerparent{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    background-image: url('/public/images/patternpad.jpeg');
+    background-size:fill;
+    background-position:center;
+    /*background-repeat: no-repeat;*/
+    height:80vh;
+    width:100%;    
+    color: silver;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: max(4vw);
+}
+
+.wrap {
+    border-right: 0.09em solid #666;
+}
+.dynamic{
+    margin-top: 1vh;
+    margin-bottom:auto;
+    width:min(10vw,auto);
+    margin-left:auto;
+    margin-right:auto;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+    
+}
+.hello{
+    margin-top:auto;
+    margin-bottom:1vh;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:800px){
+    .banner-parent{
+        font-size: 8vw;
+    }
+}
+
+
