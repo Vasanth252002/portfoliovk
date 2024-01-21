@@ -1,3 +1,16 @@
+A simple V1 of my portfolio made with css and react with Embla js and Atropos Js.
+
+![image](https://github.com/Vasanth252002/portfoliovk/assets/114413799/da40d5cf-2e8c-44b4-865f-0fddbe2026c9)
+
+![image](https://github.com/Vasanth252002/portfoliovk/assets/114413799/0f464c9f-181c-452f-9bf9-37cc23a83222)
+
+![image](https://github.com/Vasanth252002/portfoliovk/assets/114413799/229a68c5-c6ba-40a5-86c1-36f0b54db386)
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
